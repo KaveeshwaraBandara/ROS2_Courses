@@ -1,0 +1,42 @@
+[0.023s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description
+[0.183s] -- The C compiler identification is GNU 13.3.0
+[0.304s] -- The CXX compiler identification is GNU 13.3.0
+[0.339s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.501s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.789s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.072s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.524s] -- Configuring done (1.5s)
+[1.533s] -- Generating done (0.0s)
+[1.538s] -- Build files have been written to: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description
+[1.550s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description
+[1.553s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description -- -j4 -l4
+[1.617s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description -- -j4 -l4
+[1.638s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description
+[1.659s] -- Install configuration: ""
+[1.659s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description//urdf
+[1.660s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description//urdf/mobile_robot.urdf
+[1.661s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[1.661s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.662s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.663s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[1.663s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.663s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/environment/path.sh
+[1.663s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[1.664s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/local_setup.bash
+[1.664s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/local_setup.sh
+[1.664s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[1.664s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[1.664s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/package.dsv
+[1.666s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[1.667s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.667s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.667s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/install/my_robot_description/share/my_robot_description/package.xml
+[1.669s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_for_Beginners_Level2_TF_URDF_RVIZ_GAZEBO/build/my_robot_description

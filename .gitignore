@@ -1,0 +1,10 @@
+# VS Code
+.vscode/
+
+# Build files
+build/
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
