@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="camera_robot">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="my_robot">
     <xacro:include filename="common_properties.xacro" />
     <xacro:include filename="arm.xacro"/>
+    <xacro:include filename="arm_gazebo.xacro"/>
 </robot>
