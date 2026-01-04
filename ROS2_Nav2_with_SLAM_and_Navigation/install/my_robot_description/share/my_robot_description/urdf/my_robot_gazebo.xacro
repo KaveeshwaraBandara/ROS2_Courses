@@ -24,4 +24,8 @@
         </plugin>
     </gazebo>
 
+    <gazebo plugin="gz-sim-odometry-publisher-system" name="gz::sim::systems::OdometryPublisher">
+        <robot_base_frame>base_footprint</robot_base_frame>
+    </gazebo>
+
 </robot>
