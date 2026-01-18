@@ -1,0 +1,231 @@
+[0.013s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.176s] -- The CXX compiler identification is GNU 13.3.0
+[0.197s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.289s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.391s] -- Detecting CXX compiler ABI info - done
+[0.400s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.400s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.432s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.586s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.742s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.941s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.618s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.046s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.599s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.731s] -- Found PythonExtra: /usr/bin/python3  
+[3.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.481s] -- Configuring done (3.5s)
+[3.518s] -- Generating done (0.0s)
+[3.530s] -- Build files have been written to: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces
+[3.539s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces
+[3.540s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces -- -j4 -l4
+[3.603s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.603s] [  2%] Built target ament_cmake_python_copy_my_robot_interfaces
+[3.856s] running egg_info
+[3.857s] creating my_robot_interfaces.egg-info
+[3.864s] [  2%] Built target my_robot_interfaces__rosidl_generator_type_description
+[3.878s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.887s] writing my_robot_interfaces.egg-info/PKG-INFO
+[3.887s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.887s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[3.887s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[3.887s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.998s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[3.999s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[4.044s] [  8%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[4.391s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__functions.c.o[0m
+[4.391s] [ 14%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__description.c.o[0m
+[4.391s] [ 17%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[4.399s] [ 17%] Built target my_robot_interfaces__cpp
+[4.568s] [ 20%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_c.so[0m
+[4.606s] [ 20%] Built target my_robot_interfaces__rosidl_generator_c
+[4.621s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.621s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.622s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.624s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.162s] [ 35%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[5.181s] [ 38%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/action/count_until__type_support.cpp.o[0m
+[5.269s] [ 41%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_c.so[0m
+[5.310s] [ 44%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o[0m
+[5.331s] [ 44%] Built target my_robot_interfaces__rosidl_typesupport_c
+[5.345s] [ 47%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.430s] [ 50%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.486s] [ 50%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[5.505s] [ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.581s] [ 55%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/action/detail/count_until__type_support_c.cpp.o[0m
+[6.287s] [ 58%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_robot_interfaces/action/detail/count_until__type_support.cpp.o[0m
+[6.429s] [ 61%] [32mBuilding CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o[0m
+[6.519s] [ 64%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_cpp.so[0m
+[6.665s] [ 64%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[6.714s] [ 67%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.803s] [ 67%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[7.206s] [ 70%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.299s] [ 70%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[7.548s] [ 73%] [32m[1mLinking CXX shared library libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.631s] [ 73%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.650s] [ 73%] Built target my_robot_interfaces
+[7.670s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.337s] [ 76%] Built target my_robot_interfaces__py
+[8.356s] [ 79%] [32mBuilding C object CMakeFiles/my_robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_robot_interfaces/action/_count_until_s.c.o[0m
+[8.587s] [ 82%] [32m[1mLinking C shared library libmy_robot_interfaces__rosidl_generator_py.so[0m
+[8.633s] [ 82%] Built target my_robot_interfaces__rosidl_generator_py
+[8.656s] [ 85%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.656s] [ 88%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.658s] [ 91%] [32mBuilding C object CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.785s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[8.819s] [ 94%] Built target my_robot_interfaces_s__rosidl_typesupport_introspection_c
+[8.854s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so[0m
+[8.856s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.884s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_c
+[8.886s] [100%] Built target my_robot_interfaces_s__rosidl_typesupport_fastrtps_c
+[8.896s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces -- -j4 -l4
+[8.906s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces
+[8.914s] -- Install configuration: ""
+[8.914s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[8.914s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.json
+[8.914s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.h
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__description.c
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.h
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.h
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.c
+[8.915s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__functions.c
+[8.916s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.h
+[8.916s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[8.916s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[8.916s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[8.916s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so" to ""
+[8.916s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.917s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.917s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h
+[8.917s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.917s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.917s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.917s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.918s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.c
+[8.918s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h
+[8.918s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[8.918s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[8.918s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[8.918s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so" to ""
+[8.919s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.919s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.919s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.919s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.919s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.919s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__builder.hpp
+[8.919s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__traits.hpp
+[8.919s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.hpp
+[8.920s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__struct.hpp
+[8.920s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/count_until.hpp
+[8.920s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.920s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg
+[8.920s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.920s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.920s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.920s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp
+[8.921s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/dds_fastrtps
+[8.921s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.921s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.921s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces
+[8.921s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action
+[8.921s] -- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail
+[8.921s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp
+[8.921s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/action/detail/count_until__type_support.cpp
+[8.922s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.922s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[8.922s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[8.922s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so" to ""
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[8.923s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action
+[8.924s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until.py
+[8.925s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py
+[8.925s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until_s.c
+[8.925s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.925s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.925s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.974s] Listing '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces'...
+[8.974s] Compiling '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/__init__.py'...
+[8.974s] Listing '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action'...
+[8.974s] Compiling '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/__init__.py'...
+[8.974s] Compiling '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/action/_count_until.py'...
+[8.980s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[8.980s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.980s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so
+[8.981s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[8.981s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so
+[8.981s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.so" to ""
+[8.981s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[8.981s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so" to ""
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.idl
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/action/CountUntil.action
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[8.982s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[8.983s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.984s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.985s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.985s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[8.985s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.985s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[8.985s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.986s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.987s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.988s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.988s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.988s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[8.988s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[8.988s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[8.990s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/my_robot_interfaces
