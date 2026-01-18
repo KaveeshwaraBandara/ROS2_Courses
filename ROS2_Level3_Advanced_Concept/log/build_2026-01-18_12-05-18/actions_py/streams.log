@@ -1,0 +1,25 @@
+[0.881s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/build install --record /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/install.log --single-version-externally-managed install_data
+[1.170s] running egg_info
+[1.192s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[1.192s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[1.193s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[1.193s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[1.239s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[1.240s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[1.240s] running build
+[1.240s] running build_py
+[1.240s] copying actions_py/count_until_client.py -> /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/build/lib/actions_py
+[1.241s] running install
+[1.247s] running install_lib
+[1.269s] copying /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages/actions_py
+[1.270s] byte-compiling /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages/actions_py/count_until_client.py to count_until_client.cpython-312.pyc
+[1.271s] running install_data
+[1.271s] running install_egg_info
+[1.294s] removing '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages/actions_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.295s] Copying ../../build/actions_py/actions_py.egg-info to /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages/actions_py-0.0.0-py3.12.egg-info
+[1.295s] running install_scripts
+[1.443s] Installing count_until_client script to /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/actions_py
+[1.443s] Installing count_until_server script to /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/actions_py
+[1.444s] writing list of installed files to '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/install.log'
+[1.474s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/my_robot_interfaces/lib/python3.12/site-packages:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/build install --record /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/actions_py/install.log --single-version-externally-managed install_data
