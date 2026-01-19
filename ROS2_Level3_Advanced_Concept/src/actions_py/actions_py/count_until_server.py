@@ -29,16 +29,25 @@ class CountUntilServer(Node):
         self.get_logger().info(f"Received goal request: target_number={goal_request.target_number}, period={goal_request.period}")
 
         # Policy: refuse new goal if current goal still active
-        with self.goal_lock_:
-            if self.goal_handle_ is not None and self.goal_handle_.is_active:
-                self.get_logger().info("Rejecting the goal")
-                return GoalResponse.REJECT
+        # with self.goal_lock_:
+        #     if self.goal_handle_ is not None and self.goal_handle_.is_active:
+        #         self.get_logger().info("Rejecting the goal")
+        #         return GoalResponse.REJECT
+
+
 
         # validate goal request
         if goal_request.target_number <= 0 or goal_request.period <= 0.0:
             self.get_logger().info("Rejected goal request")
             self.get_logger().info("target_number and period must be positive values")
             return GoalResponse.REJECT
+        
+        # Policy: preempt existing goal when receiving new goal
+        with self.goal_lock_:
+            if self.goal_handle_ is not None and self.goal_handle_.is_active:
+                self.goal_handle_.abort()
+                self.get_logger().info("Abort current goal and acept new goal")
+
         
         self.get_logger().info("Accepting the Goal")
         return GoalResponse.ACCEPT
@@ -61,6 +70,10 @@ class CountUntilServer(Node):
         result = CountUntil.Result()
         counter = 0
         for i in range(target_number):
+            if not goal_handle.is_active:
+                result.reached_number = counter
+                return result
+            
             if goal_handle.is_cancel_requested:
                 self.get_logger().info("Cancelling the goal")
                 goal_handle.canceled()
