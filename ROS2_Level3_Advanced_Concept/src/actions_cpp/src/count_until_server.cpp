@@ -24,6 +24,11 @@ public:
 private:
     rclcpp_action::GoalResponse goal_callback(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const CountUntil::Goal> goal)
     {
+        if (goal->target_number<=0){
+            RCLCPP_INFO(this->get_logger(), "Rejecting the goal");
+            return rclcpp_action::GoalResponse::REJECT;
+        }
+        RCLCPP_INFO(this->get_logger(), "Accepting the goal");
         return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
     }
 
@@ -46,10 +51,14 @@ private:
 
         //execute counting
         int counter = 0;
+        auto feedback = std::make_shared<CountUntil::Feedback>();
         rclcpp::Rate loop_rate(1.0 / period);
+        std::this_thread::sleep_for(std::chrono::milliseconds(50));
         for  (int i = 0; i < target_number; i++){
             counter++;
             RCLCPP_INFO(this->get_logger(), "Counting: %d", counter);
+            feedback->current_number = counter;
+            goal_handle->publish_feedback(feedback);
             loop_rate.sleep();
         }
 

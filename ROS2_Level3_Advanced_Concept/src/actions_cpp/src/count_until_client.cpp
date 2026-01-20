@@ -27,7 +27,9 @@ public:
 
         // add callbacks
         auto options = rclcpp_action::Client<CountUntil>::SendGoalOptions();
+        options.goal_response_callback = std::bind(&CountUntilClientNode::goal_response_callback, this, _1);
         options.result_callback = std::bind(&CountUntilClientNode::goal_result_callback, this, _1);
+        options.feedback_callback = std::bind(&CountUntilClientNode::goal_feedback_callback, this, _1, _2);
 
         //send the goal
         RCLCPP_INFO(this->get_logger(), "Sending goal: target_number=%d, period=%.2f", target_number, period);
@@ -36,11 +38,35 @@ public:
 
 private:
 
+    //callbakck to know if goal is accepted or rejected
+    void goal_response_callback(const CountUntilGoalHandle::SharedPtr & goal_handle)
+    {
+        if (!goal_handle) {
+            RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+        } else {
+            RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+        }
+    }
+
     //callback to receive the result
     void goal_result_callback(const CountUntilGoalHandle::WrappedResult & result)
     {
+        auto status = result.code;
+        if (status == rclcpp_action::ResultCode::SUCCEEDED){
+            RCLCPP_INFO(this->get_logger(), "Goal succeeded!");
+        } else if (status == rclcpp_action::ResultCode::ABORTED){
+            RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
+        }
         int reached_number = result.result->reached_number;
         RCLCPP_INFO(this->get_logger(), "Result received: reached_number=%d", reached_number);
+    }
+
+    //feedback callback
+    void goal_feedback_callback(CountUntilGoalHandle::SharedPtr goal_handle, const std::shared_ptr<const CountUntil::Feedback> feedback)
+    {
+        (void)goal_handle;
+        int number = feedback->current_number;
+        RCLCPP_INFO(this->get_logger(), "Received feedback: current_number=%d", number);
     }
 
     rclcpp_action::Client<CountUntil>::SharedPtr count_until_client_;
