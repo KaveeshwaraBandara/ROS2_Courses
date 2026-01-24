@@ -1,0 +1,36 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/count_until_client.dir/src/count_until_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/count_until_server.dir/src/count_until_server.cpp.o[0m
+[01m[K/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CountUntilServerNode::[01;32m[Kgoal_callback[m[K(const rclcpp_action::GoalUUID&, std::shared_ptr<const my_robot_interfaces::action::CountUntil_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_cpp/src/count_until_server.cpp:28:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | :GoalResponse goal_callback([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,std::shared_ptr<const CountUntil::Goal> goal)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_cpp/src/count_until_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse CountUntilServerNode::[01;32m[Kcancel_callback[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<my_robot_interfaces::action::CountUntil> >)[m[K’:
+[01m[K/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/actions_cpp/src/count_until_server.cpp:61:95:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | cancel_callback([01;35m[Kconst std::shared_ptr<CountUntilGoalHandle> goal_handle[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[ 75%] [32m[1mLinking CXX executable count_until_server[0m
+[ 75%] Built target count_until_server
+[100%] [32m[1mLinking CXX executable count_until_client[0m
+[100%] Built target count_until_client
+-- Install configuration: ""
+-- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/lib/actions_cpp/count_until_server
+-- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/lib/actions_cpp/count_until_server" to ""
+-- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/lib/actions_cpp/count_until_client
+-- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/lib/actions_cpp/count_until_client" to ""
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/ament_index/resource_index/package_run_dependencies/actions_cpp
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/ament_index/resource_index/parent_prefix_path/actions_cpp
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/environment/path.sh
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/environment/path.dsv
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/local_setup.bash
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/local_setup.sh
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/local_setup.zsh
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/local_setup.dsv
+-- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/package.dsv
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/ament_index/resource_index/packages/actions_cpp
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig.cmake
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/cmake/actions_cppConfig-version.cmake
+-- Up-to-date: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_cpp/share/actions_cpp/package.xml

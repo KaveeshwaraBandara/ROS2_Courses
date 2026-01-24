@@ -1,0 +1,55 @@
+[0.047s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/lifecycle_cpp -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp
+[0.580s] -- The C compiler identification is GNU 13.3.0
+[0.580s] -- The CXX compiler identification is GNU 13.3.0
+[0.580s] -- Detecting C compiler ABI info
+[0.581s] -- Detecting C compiler ABI info - done
+[0.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.600s] -- Detecting C compile features
+[0.600s] -- Detecting C compile features - done
+[0.625s] -- Detecting CXX compiler ABI info
+[0.805s] -- Detecting CXX compiler ABI info - done
+[0.823s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.824s] -- Detecting CXX compile features
+[0.825s] -- Detecting CXX compile features - done
+[0.864s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.273s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.654s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.831s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.909s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.992s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.519s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.532s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.908s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.028s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.143s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.619s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[4.318s] -- Configuring done (4.3s)
+[4.371s] -- Generating done (0.0s)
+[4.390s] -- Build files have been written to: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp
+[4.427s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/lifecycle_cpp -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp
+[4.428s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp -- -j4 -l4
+[4.622s] [ 50%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[14.235s] [100%] [32m[1mLinking CXX executable number_publisher[0m
+[14.615s] [100%] Built target number_publisher
+[14.630s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp -- -j4 -l4
+[14.631s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp
+[14.640s] -- Install configuration: ""
+[14.640s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher
+[14.642s] -- Set non-toolchain portion of runtime path of "/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/lib/lifecycle_cpp/number_publisher" to ""
+[14.642s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/ament_index/resource_index/package_run_dependencies/lifecycle_cpp
+[14.643s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/ament_index/resource_index/parent_prefix_path/lifecycle_cpp
+[14.643s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.sh
+[14.643s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/environment/ament_prefix_path.dsv
+[14.643s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.sh
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/environment/path.dsv
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.bash
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.sh
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.zsh
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/local_setup.dsv
+[14.644s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/package.dsv
+[14.645s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/ament_index/resource_index/packages/lifecycle_cpp
+[14.645s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig.cmake
+[14.645s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/cmake/lifecycle_cppConfig-version.cmake
+[14.645s] -- Installing: /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_cpp/share/lifecycle_cpp/package.xml
+[14.647s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/actions_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_cpp
