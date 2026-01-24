@@ -27,6 +27,29 @@ public:
 private:
     rclcpp_action::GoalResponse goal_callback(const rclcpp_action::GoalUUID & uuid,std::shared_ptr<const CountUntil::Goal> goal)
     {
+        // policy : refuse new goal if one goal is already running
+        // {
+        //     std::lock_guard<std::mutex> lock(mutex_);
+        //     if (goal_handle_){
+        //         if (goal_handle_->is_active()){
+        //             RCLCPP_INFO(this->get_logger(), "Rejecting the goal since another goal is running");
+        //             return rclcpp_action::GoalResponse::REJECT;
+        //         }
+        //     }
+        // }
+
+        //policy : reject the current goal and accept new goal
+        {
+            std::lock_guard<std::mutex> lock(mutex_);
+            if (goal_handle_){
+                if (goal_handle_->is_active()){
+                    RCLCPP_INFO(this->get_logger(), "Preempting the current goal to accept new goal");
+                    preempted_goal_id_ = goal_handle_->get_goal_id();
+                }
+            }
+        }
+        
+
         if (goal->target_number<=0){
             RCLCPP_INFO(this->get_logger(), "Rejecting the goal");
             return rclcpp_action::GoalResponse::REJECT;
@@ -49,6 +72,10 @@ private:
 
     void execute_goal(const std::shared_ptr<CountUntilGoalHandle> goal_handle)
     {
+        {
+            std::lock_guard<std::mutex> lock(mutex_);
+            this->goal_handle_ = goal_handle;
+        }
         //get request from goal
         int target_number = goal_handle->get_goal()->target_number;
         double period = goal_handle->get_goal()->period;
@@ -59,6 +86,15 @@ private:
         rclcpp::Rate loop_rate(1.0 / period);
         std::this_thread::sleep_for(std::chrono::milliseconds(50));
         for  (int i = 0; i < target_number; i++){
+            if (preempted_goal_id_ == goal_handle->get_goal_id()){
+                //preempt the current goal
+                auto result = std::make_shared<CountUntil::Result>();
+                result->reached_number = counter;
+                goal_handle->abort(result);
+                RCLCPP_INFO(this->get_logger(), "Goal Preempted. Reached Number: %d", counter);
+                return;
+            }
+
             if (goal_handle->is_canceling()){
                 //set goal to canceled state
                 auto result = std::make_shared<CountUntil::Result>();
@@ -83,6 +119,9 @@ private:
 
     rclcpp_action::Server<CountUntil>::SharedPtr count_until_server_;
     rclcpp::CallbackGroup::SharedPtr cb_group_;
+    std::mutex mutex_;
+    std::shared_ptr<CountUntilGoalHandle> goal_handle_;
+    rclcpp_action::GoalUUID preempted_goal_id_;
 };
 
 int main(int argc, char **argv)
