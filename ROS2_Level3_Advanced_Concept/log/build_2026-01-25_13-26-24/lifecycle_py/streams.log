@@ -1,0 +1,24 @@
+[1.203s] Invoking command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/lifecycle_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/build install --record /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/install.log --single-version-externally-managed install_data
+[1.523s] running egg_info
+[1.547s] writing ../../build/lifecycle_py/lifecycle_py.egg-info/PKG-INFO
+[1.547s] writing dependency_links to ../../build/lifecycle_py/lifecycle_py.egg-info/dependency_links.txt
+[1.548s] writing entry points to ../../build/lifecycle_py/lifecycle_py.egg-info/entry_points.txt
+[1.548s] writing requirements to ../../build/lifecycle_py/lifecycle_py.egg-info/requires.txt
+[1.548s] writing top-level names to ../../build/lifecycle_py/lifecycle_py.egg-info/top_level.txt
+[1.598s] reading manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.599s] writing manifest file '../../build/lifecycle_py/lifecycle_py.egg-info/SOURCES.txt'
+[1.599s] running build
+[1.599s] running build_py
+[1.599s] copying lifecycle_py/number_publisher.py -> /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/build/lib/lifecycle_py
+[1.599s] running install
+[1.606s] running install_lib
+[1.630s] copying /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/build/lib/lifecycle_py/number_publisher.py -> /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py
+[1.631s] byte-compiling /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py/number_publisher.py to number_publisher.cpython-312.pyc
+[1.632s] running install_data
+[1.632s] running install_egg_info
+[1.657s] removing '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.658s] Copying ../../build/lifecycle_py/lifecycle_py.egg-info to /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages/lifecycle_py-0.0.0-py3.12.egg-info
+[1.659s] running install_scripts
+[1.828s] Installing number_publisher script to /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/lifecycle_py
+[1.829s] writing list of installed files to '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/install.log'
+[1.868s] Invoked command in '/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/src/lifecycle_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/install/lifecycle_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lifecycle_py build --build-base /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/build install --record /home/user/Desktop/ROS_COURSES/course_1/ROS2_Level3_Advanced_Concept/build/lifecycle_py/install.log --single-version-externally-managed install_data
